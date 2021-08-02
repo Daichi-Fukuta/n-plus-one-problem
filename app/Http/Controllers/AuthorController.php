@@ -6,8 +6,5 @@ use Illuminate\Http\Request;
 
 class AuthorController extends Controller
 {
-    public function handle()
-    {
-        
-    }
+    
 }
