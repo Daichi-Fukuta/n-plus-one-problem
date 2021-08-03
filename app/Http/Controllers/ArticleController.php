@@ -12,6 +12,9 @@ class ArticleController extends Controller
 
         // $articles = Article::all();
         $articles = Article::with('author')->get();
+        echo '<pre>';
+        var_dump($articles);
+        return;
         
         foreach($articles as $a) {
             $a->author->name;

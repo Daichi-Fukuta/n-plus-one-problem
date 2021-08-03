@@ -8,3 +8,4 @@ Route::get('/', function () {
 
 
 Route::get('/article', 'ArticleController@handle');
+Route::get('/author', 'AuthorController@handle');
